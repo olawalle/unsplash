@@ -5,15 +5,17 @@
 </template>
 
 <style lang="scss">
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'node_modules/bootstrap-vue/src/index.scss';
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding: 0
+  padding: 0;
+  font-family: "Rubik", sans-serif;
 }
 #nav {
   padding: 30px;
@@ -30,17 +32,17 @@
   border-radius: 0px !important;
   overflow: hidden !important;
   ::-webkit-scrollbar {
-      width: 5px;
+    width: 5px;
   }
   ::-webkit-scrollbar-track {
-      background: #f1f1f1;
+    background: #f1f1f1;
   }
   ::-webkit-scrollbar-thumb {
-      background: #888;
-      border-radius: 15px;
+    background: #888;
+    border-radius: 15px;
   }
   ::-webkit-scrollbar-thumb:hover {
-      background: #555;
+    background: #555;
   }
 }
 </style>
